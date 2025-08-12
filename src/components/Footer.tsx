@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="font-mono text-xl font-bold text-primary">
-              &lt;AlexChen /&gt;
+              &lt;KolarDev /&gt;
             </div>
             <p className="text-muted-foreground text-sm">
               Backend Developer passionate about building scalable systems 
@@ -42,10 +42,10 @@ const Footer = () => {
                 href="mailto:alex.chen@example.com" 
                 className="block text-muted-foreground hover:text-primary transition-colors duration-300 text-sm"
               >
-                alex.chen@example.com
+                kolardev118@gmail.com
               </a>
               <div className="text-muted-foreground text-sm">
-                San Francisco, CA
+                Ibadan, Nigeria
               </div>
             </div>
           </div>
@@ -53,9 +53,9 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
-          <div className="flex items-center gap-2 text-sm text-muted-foreground">
+          {/* <div className="flex items-center gap-2 text-sm text-muted-foreground">
             Built with <Heart className="h-4 w-4 text-red-500" fill="currentColor" /> using React & TypeScript
-          </div>
+          </div> */}
 
           <div className="flex items-center gap-6">
             <a 
@@ -73,7 +73,7 @@ const Footer = () => {
               <Linkedin className="h-5 w-5" />
             </a>
             <a 
-              href="mailto:alex.chen@example.com" 
+              href="kolardev118@gmail.com" 
               className="text-muted-foreground hover:text-primary transition-colors duration-300"
               aria-label="Email"
             >
@@ -82,7 +82,7 @@ const Footer = () => {
           </div>
 
           <div className="text-sm text-muted-foreground">
-            © {currentYear} Alex Chen. All rights reserved.
+            © {currentYear} KolarDev. All rights reserved.
           </div>
         </div>
       </div>

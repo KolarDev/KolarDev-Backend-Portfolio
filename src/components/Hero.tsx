@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 const Hero = () => {
   const [mounted, setMounted] = useState(false);
   const [currentText, setCurrentText] = useState("");
-  const fullText = "Alex Chen";
+  const fullText = "Muhyideen Abdulbasit";
 
   useEffect(() => {
     setMounted(true);
@@ -80,21 +80,21 @@ const Hero = () => {
           
           <div className="flex gap-6 justify-center animate-fade-in-up" style={{ animationDelay: '1.2s', opacity: 0 }}>
             <a 
-              href="https://github.com" 
+              href="https://github.com/KolarDev" 
               className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-125 hover:rotate-12 group"
               aria-label="GitHub"
             >
               <Github className="h-6 w-6 group-hover:animate-bounce-gentle" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/abdulbasit-muhyideen-8138a22a1/" 
               className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-125 hover:rotate-12 group"
               aria-label="LinkedIn"
             >
               <Linkedin className="h-6 w-6 group-hover:animate-bounce-gentle" />
             </a>
             <a 
-              href="mailto:alex@example.com" 
+              href="kolardev118@gmail.com" 
               className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-125 hover:rotate-12 group"
               aria-label="Email"
             >
