@@ -139,6 +139,25 @@
   }
   
   .skill-tag {
-    @apply bg-accent/50 text-accent-foreground px-3 py-1 rounded-full text-sm font-mono transition-all duration-300 hover:bg-accent hover:scale-105;
+    @apply bg-accent/50 text-accent-foreground px-3 py-1 rounded-full text-sm font-mono transition-all duration-300 hover:bg-accent hover:scale-110 cursor-pointer hover:shadow-lg hover:shadow-primary/10 hover:rotate-3;
+  }
+
+  .text-shimmer {
+    background: linear-gradient(90deg, hsl(var(--foreground)) 0%, hsl(var(--primary)) 50%, hsl(var(--foreground)) 100%);
+    background-size: 200% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmer 2s linear infinite;
+  }
+
+  /* Custom animations for CSS */
+  @keyframes pulse-glow {
+    0%, 100% { box-shadow: 0 0 20px hsl(var(--primary) / 0.3); }
+    50% { box-shadow: 0 0 40px hsl(var(--primary) / 0.6); }
+  }
+
+  .animate-pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite;
   }
 }
